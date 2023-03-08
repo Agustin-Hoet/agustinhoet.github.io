@@ -1,0 +1,162 @@
+body {
+    font-size: 16px;
+    background-color: rgb(209, 209, 209);
+}
+
+/** HEADER **/
+
+#imagen01 img { 
+    border-radius: 8px;
+    margin: 15px 10px 10px 15px;
+    transition-duration: 0.3s;
+}
+
+#texto1 { /* Argentina Programa */
+    margin-left: 80px;
+    margin-top: -67px;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    font-size: 0.65em;
+}
+
+#texto2 { /* #YoProgramo */
+    margin-left: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    font-size: 0.8em;
+    position: relative;
+    bottom: 15px;
+}
+
+.twitter {
+    color:rgb(0, 26, 255);
+    text-decoration: none;
+    margin-top: -46px;
+    margin-right: 145px;
+    transition-duration: 0.3s;
+}
+
+.instagram { /* Instagram */
+    color: rgb(255, 46, 115);
+    text-decoration: none;
+    margin-top: -46px;
+    margin-right: 100px;
+    transition-duration: 0.3s;
+}
+
+.button { /* Login */
+    background-color: #555555; /* Gris */
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    margin-top: -50px;
+    border-radius: 6px;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+a:link { text-decoration: none;
+}
+
+.navbar-brand {
+    padding-left: 250px;
+    padding-top: 0px;
+}
+
+/* END HEADER */
+
+/* BANNER */
+
+#imagen02 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+/* END BANNER */
+
+/* PERFIL */
+
+#imagen03 img {
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: -80px;
+    position: absolute;
+}
+
+#texto3 {
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    margin-top: 54px;
+    margin-left: 0px;
+    text-indent: 50px;
+    font-size: 0.8em;
+}
+
+.container {
+    position: relative;
+}
+
+.box {
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    position: absolute;
+    width: 55%;
+    left: 370px;
+    top: -100px;
+    height: 100px;
+}
+
+.box h3 {
+    font-weight: 100;
+}
+
+
+/* FIN PERFIL */
+
+/* EDUCACIÓN */
+
+.education {
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.blocks {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    background-image: linear-gradient(rgb(179, 179, 179), rgb(99, 99, 99));
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagen04 img {
+    border-radius: 50%;
+    margin-top: 54px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+#imagen05 img {
+    margin-top: 54px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+
+
+/* FIN EDUCACIÓN */
+
